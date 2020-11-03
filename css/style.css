@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Shojumaru&family=Stylish&display=swap');
+
+:root{
+	
+--color-naranja: #ffac2c;
+--color-negro: #29373c;
+--color-fondo-gris: #f9fbf3;
+--color-fondo-footer: #ED8F03;
+--color-general: #999999;	
+}
+
+
+
+body{
+	
+	font-family: 'Stylish', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+.subtitulo{
+	font-family: 'Nanum Pen Script', sans-serif;
+}
+
+
+#hero{
+	font-family: 'Shojumaru', sans-serif;
+	background-image: url("../img/bg-hero.png");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+#hero .titulo{
+	color: var(--color-naranja);
+	font-size: 60px;
+	padding-top: 10%;
+	padding-bottom: 1%;
+}
+
+#hero .subtitulo{
+	color: white;
+	font-size: 38px;
+	
+	padding-bottom: 1%;
+	
+}
+
+.btn-primary{
+	
+	font-family: 'Stylish', sans-serif;
+	background-color: var(--color-naranja);
+	color: var(--color-negro);
+	margin-top: 3%;
+	margin-bottom: 15%;
+	font-size: 18px;
+		
+}
+
+#offer{
+	text-align: center;
+}
+
+#offer .subtitulo{
+	font-size: 58px;
+	padding-top: 12%;
+}
+
+#offer .texto{
+	font-family: 'Nanum Pen Script', sans-serif;
+	font-size: 35px;
+	padding-top: 2%;
+	padding-bottom: 6%;
+}
+ 
+#offer p{
+	color: gray;
+	padding-top: 1%;
+	padding-bottom: 8%;
+	
+}
+
+#faq {
+	
+	background-color: var(--color-fondo-gris);
+}
+
+#faq .texto{
+	font-family: 'Nanum Pen Script', sans-serif;
+	font-size: 35px;
+	
+	padding-bottom: 3%;
+	padding-left: 10%;
+}
+
+#faq .subtitulo{
+	font-size: 58px;
+	padding-top: 4%;
+	padding-left: 10%;
+}
+
+#faq p{
+	padding-left: 10%;
+}
+
+#faq .boton{
+	padding-left: 12%;
+}
+
+
+#costumer .subtitulo{
+	font-size: 50px;
+	padding-top: 23%;
+	
+}
+.tamano-icono{
+	width:50%;
+	height: 50%;
+}
+
+.tamano{
+	width:15%;
+	height: 15%;
+}
+.pane{
+	
+	padding-right: -20%;
+}
+
+footer #final{
+
+	background-color: var(--color-naranja);
+	text-align: center;
+
+	padding-bottom: 15%;
+}
+
+#footer .img-final{
+	height: 10%;
+	width: 10%;
+}
+
+footer h4{
+	padding-top: 20%;
+}
