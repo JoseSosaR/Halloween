@@ -146,6 +146,20 @@ footer #final{
 	padding-bottom: 15%;
 }
 
+
+
+#contact .subtitulo{
+	font-size: 50px;
+	padding-top: 5%;
+	
+	
+}
+
+#contact .contact-img{
+	width: 55%;
+	height: 95%;
+}
+
 #footer .img-final{
 	height: 10%;
 	width: 10%;
